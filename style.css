@@ -1,0 +1,92 @@
+
+*{
+        font-family: myfont;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 60px;
+    border: 1px solid #4F1C1B;
+    height: 450px;
+    width: 1020px;
+    margin-left: 100px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+}
+.form h2{
+    padding-top: 30px;
+    color: #4F1C1B;
+    font-size: 35px;
+    padding-left: 15px ;
+
+}
+.form input{
+    width: 330px;
+    border: 0px;
+    border-bottom: 1px solid #4F1C1B ;
+    margin-top: 20px;
+    padding: 15px;  
+    padding-left: 30px;
+    font-weight:530;
+    font-size: 17px;  
+    caret-color: #4F1C1B;
+}
+.form input:focus{
+    outline: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 9px 0px;
+}
+.form i{
+    position: relative;
+    left: 22px;
+    color: #4F1C1B;
+}
+
+#submit{
+    background-color: #4F1C1B;
+    height: 40px;
+    width: 370px;
+    margin-left: 20px;
+    border-radius:5px ;
+    color:aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#submit:focus{
+    box-shadow: none;
+}
+.form a{
+    text-decoration: none;
+    color: #4F1C1B;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.form p{
+    margin-left: 20px;
+    color: gray;
+}
+.form .two{
+    margin-left: 7px;
+    font-size: 18px;
+}
+.pic{
+    background-image:linear-gradient(rgb(79, 28, 27,0.65),rgb(108, 47, 46,0.65)) , url(nathan-riley-9q3I8XhesQI-unsplash.jpg);
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+    padding-left: 5px;
+}
+.pic img{
+    width: 550px;
+    height: 500px;
+    
+}
+@font-face {
+    font-family: myfont;
+    src: url(Philosopher-Bold.ttf);
+}
